@@ -39,7 +39,7 @@ db.once('open', function() {
 });
 
 
-app.get('/', (req, res) => {
+app.get('', (req, res) => {
   
   res.send(
     'hai'
